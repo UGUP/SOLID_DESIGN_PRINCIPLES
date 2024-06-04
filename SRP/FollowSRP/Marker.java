@@ -1,6 +1,6 @@
 package SRP.FollowSRP;
 
-public class Marker {
+ public class Marker {
 
     private String name;
     private String color;
@@ -32,22 +32,6 @@ public class Marker {
 }
 
 
-class Invoice  {
 
-    private Marker marker;
-    private int quantity;
-
-    public Invoice(Marker marker, int quantity){
-        this.marker= marker;
-        this.quantity= quantity;
-    }
-
-
-    public int calculateprice(Marker marker, int quantity){
-        return marker.getPrice()*quantity;
-    }
-
-
-}
 
 
